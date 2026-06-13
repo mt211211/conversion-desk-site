@@ -1,13 +1,13 @@
-# 48-Hour SaaS Conversion Teardown
+# Conversion Desk
 
-A fixed-scope conversion review for early-stage B2B SaaS landing pages.
+A focused conversion-review service for early-stage B2B SaaS landing pages.
 
-- Prioritized conversion-friction diagnosis
-- Rewritten hero and primary CTA
-- 30-day experiment plan
-- Delivered within 48 hours after receiving a usable URL
-- $149 one-time, paid securely through Stripe
+## Offer ladder
+
+- **SaaS Homepage Quick-Win Review - $49 one-time:** three highest-priority conversion issues, rewritten hero and CTA, and one recommended experiment delivered within 24 hours.
+- **48-Hour Full Teardown - $149 one-time:** full revenue-leak report, rewritten hero and CTA, objection map, and prioritized 30-day experiment plan.
+- **Conversion Optimization Desk - $1,250/month:** two prioritized reviews or experiments, conversion-copy revisions, and a monthly action plan.
 
 **Live page:** https://mt211211.github.io/conversion-desk-site/
 
-No revenue or conversion outcome is guaranteed.
+Payments are processed securely through Stripe.
