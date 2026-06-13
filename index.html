@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A focused 48-hour SaaS landing-page conversion teardown with rewritten copy and a prioritized experiment plan.">
+  <title>48-Hour SaaS Conversion Teardown</title>
+  <style>
+    :root { --ink:#101828; --muted:#475467; --line:#e4e7ec; --paper:#fff; --soft:#f7f9fc; --brand:#5b4df5; --brand2:#3125b8; --good:#087443; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--ink); background:radial-gradient(circle at 80% -10%,#e9e7ff 0,transparent 30%),var(--paper); line-height:1.55; }
+    a { color:inherit; }
+    .wrap { width:min(1080px,calc(100% - 40px)); margin:auto; }
+    nav { display:flex; align-items:center; justify-content:space-between; padding:22px 0; }
+    .brand { font-weight:800; letter-spacing:-.04em; font-size:20px; }
+    .navlink { color:var(--muted); text-decoration:none; font-weight:650; }
+    .hero { padding:82px 0 70px; display:grid; grid-template-columns:1.2fr .8fr; gap:64px; align-items:center; }
+    .eyebrow { color:var(--brand2); font-weight:800; text-transform:uppercase; letter-spacing:.12em; font-size:12px; }
+    h1 { font-size:clamp(44px,7vw,76px); line-height:.98; letter-spacing:-.065em; margin:18px 0 24px; max-width:780px; }
+    h2 { font-size:clamp(30px,4vw,46px); line-height:1.06; letter-spacing:-.045em; margin:0 0 16px; }
+    h3 { margin:0 0 8px; }
+    .lead { font-size:20px; color:var(--muted); max-width:680px; }
+    .buttons { display:flex; flex-wrap:wrap; gap:12px; margin:30px 0 16px; }
+    .button { display:inline-block; border-radius:12px; padding:14px 20px; text-decoration:none; font-weight:800; border:1px solid var(--line); background:#fff; }
+    .button.primary { background:var(--brand); border-color:var(--brand); color:#fff; box-shadow:0 12px 28px rgba(91,77,245,.25); }
+    .fine { color:var(--muted); font-size:13px; }
+    .card { background:rgba(255,255,255,.9); border:1px solid var(--line); border-radius:22px; padding:28px; box-shadow:0 22px 70px rgba(16,24,40,.10); }
+    .price { font-size:48px; line-height:1; font-weight:850; letter-spacing:-.06em; margin:16px 0 6px; }
+    .price span { font-size:16px; color:var(--muted); letter-spacing:0; font-weight:650; }
+    ul { padding-left:20px; }
+    li { margin:10px 0; }
+    .check { color:var(--good); font-weight:750; }
+    section { padding:76px 0; }
+    .soft { background:var(--soft); border-block:1px solid var(--line); }
+    .grid3 { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:28px; }
+    .tile { border:1px solid var(--line); border-radius:16px; padding:22px; background:#fff; }
+    .num { width:34px; height:34px; border-radius:50%; display:grid; place-items:center; background:#eceaff; color:var(--brand2); font-weight:850; margin-bottom:16px; }
+    .split { display:grid; grid-template-columns:1fr 1fr; gap:42px; align-items:start; }
+    .faq { border-top:1px solid var(--line); padding:20px 0; }
+    .faq p { color:var(--muted); margin:7px 0 0; }
+    footer { padding:35px 0 50px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
+    @media (max-width:800px) { .hero,.split,.grid3 { grid-template-columns:1fr; } .hero { padding-top:44px; gap:28px; } section { padding:54px 0; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav><div class="brand">Conversion Desk</div><a class="navlink" href="#faq">FAQ</a></nav>
+    <main class="hero">
+      <div>
+        <div class="eyebrow">For early-stage B2B SaaS</div>
+        <h1>Find what is costing your landing page conversions.</h1>
+        <p class="lead">Get a focused teardown of one SaaS landing page, rewritten hero and CTA copy, and a prioritized 30-day experiment plan. Delivered within 48 hours.</p>
+        <div class="buttons"><a class="button primary" href="https://buy.stripe.com/00w8wI1fw3oj63v6tMf3a0e">Get the teardown - $149</a><a class="button" href="#included">See what's included</a></div>
+        <p class="fine">Secure checkout by Stripe. No invented promises, no long contract, no revenue guarantee.</p>
+      </div>
+      <aside class="card">
+        <div class="eyebrow">Fixed scope</div>
+        <div class="price">$149 <span>one-time</span></div>
+        <p>One useful decision document, not a sprawling slide deck.</p>
+        <ul>
+          <li><span class="check">Included:</span> conversion-friction diagnosis</li>
+          <li><span class="check">Included:</span> rewritten hero and primary CTA</li>
+          <li><span class="check">Included:</span> prioritized experiment plan</li>
+          <li><span class="check">Included:</span> delivery within 48 hours of receiving a usable URL</li>
+        </ul>
+        <a class="button primary" href="https://buy.stripe.com/00w8wI1fw3oj63v6tMf3a0e">Start now</a>
+      </aside>
+    </main>
+  </div>
+
+  <section class="soft" id="included">
+    <div class="wrap">
+      <div class="eyebrow">What you receive</div>
+      <h2>A clear next-action list for your highest-value page.</h2>
+      <div class="grid3">
+        <div class="tile"><div class="num">1</div><h3>Message diagnosis</h3><p>Where the page loses clarity, trust, relevance, or momentum for the target customer.</p></div>
+        <div class="tile"><div class="num">2</div><h3>Conversion copy</h3><p>A rewritten hero, supporting message, and primary CTA you can test immediately.</p></div>
+        <div class="tile"><div class="num">3</div><h3>30-day plan</h3><p>Experiments ranked by expected impact, effort, and the evidence needed to judge them.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap split">
+      <div><div class="eyebrow">Good fit</div><h2>Built for founders who already have something real to sell.</h2><p class="lead">Best for a live B2B SaaS page with a defined target customer and a clear conversion goal such as demo requests, trials, or purchases.</p></div>
+      <div class="card"><h3>Not a fit when...</h3><ul><li>The product or target customer is still undefined.</li><li>You want guaranteed revenue or conversion lift.</li><li>You need a full redesign, development work, or analytics implementation.</li><li>The page is for a prohibited, deceptive, or unlawful product.</li></ul></div>
+    </div>
+  </section>
+
+  <section class="soft">
+    <div class="wrap split">
+      <div><div class="eyebrow">Ongoing option</div><h2>Turn the teardown into a monthly optimization rhythm.</h2><p class="lead">The Conversion Optimization Desk provides two prioritized reviews or experiments, conversion-copy revisions, and a monthly action plan.</p></div>
+      <div class="card"><div class="price">$1,250 <span>/ month</span></div><p>Cancel anytime. Designed for teams that want consistent conversion work without hiring a full-time specialist.</p><a class="button primary" href="https://buy.stripe.com/7sY5kw2jAe2XgI94lEf3a0f">Start the monthly desk</a></div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap"><div class="eyebrow">FAQ</div><h2>Small print, in plain English.</h2>
+      <div class="faq"><strong>When does the 48-hour clock start?</strong><p>After checkout and receipt of a usable public website URL and target-customer description.</p></div>
+      <div class="faq"><strong>What format is the teardown?</strong><p>A concise written report structured around evidence, recommended copy, and prioritized experiments.</p></div>
+      <div class="faq"><strong>Do you guarantee results?</strong><p>No. Conversion outcomes depend on traffic quality, product, pricing, implementation, and other factors outside this review.</p></div>
+      <div class="faq"><strong>What is the refund policy?</strong><p>If the agreed teardown is not delivered within 48 hours after receiving a usable URL, request a full refund. Work already delivered is otherwise non-refundable.</p></div>
+      <div class="faq"><strong>How is customer information used?</strong><p>Only to process payment, deliver the purchased service, and communicate about that service. Customer information is not sold.</p></div>
+    </div>
+  </section>
+
+  <footer><div class="wrap">Conversion Desk. Payments processed securely by Stripe. Results are not guaranteed.</div></footer>
+</body>
+</html>
